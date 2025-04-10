@@ -10,6 +10,7 @@
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
+    "ach": "ach",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.17.1",
@@ -62,9 +63,9 @@
           "bundleName": "trialcaro.invoices.i18n.i18n"
         }
       },
-      "":{
-        "dataSource": "mainService",
-        "preload": true
+      "": {
+          "dataSource": "mainService",
+          "preload": true
       }
     },
     "resources": {
